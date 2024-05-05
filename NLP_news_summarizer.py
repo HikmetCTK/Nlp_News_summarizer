@@ -25,7 +25,7 @@ def summarize_article(url):
     article.parse()
     parser = PlaintextParser.from_string(article.text, Tokenizer("turkish"))
     summarizer = LsaSummarizer()
-    summary = summarizer(parser.document, 2)  # summary into two sentences
+    summary = summarizer(parser.document, 2)  # summary in two sentences
     return ' '.join([str(sentence) for sentence in summary])
 
 def main():
