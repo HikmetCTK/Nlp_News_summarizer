@@ -1,4 +1,4 @@
-Using News api, summarized last five updated news (you can set number as you desired) into two sentences using Lsasummarizer algorithm  provided by the Sumy library for text summarization.
+Using News api, summarized last five updated news (you can set number as you wish) in two sentences using Lsasummarizer algorithm  provided by the Sumy library for text summarization.
 
 It uses Latent Semantic Analysis (LSA) to extract the most important sentences from a document.
 
